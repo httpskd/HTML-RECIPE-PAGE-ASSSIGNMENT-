@@ -1,0 +1,50 @@
+/* General page background */
+body {
+  background: #FFF8EE; /* Soft cream for better readability */
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  color: #1A1A1A; /* Keep main text dark */
+}
+
+/* Headings in jollof orange */
+h2 {
+  color: #E85D04; /* Jollof orange */
+  border-bottom: 2px solid #E85D04;
+  padding-bottom: 5px;
+  margin-top: 25px;
+}
+
+/* Ingredients and instructions spacing */
+ul, ol {
+  margin-left: 20px;
+}
+
+/* Highlight the first ingredient nicely */
+mark {
+  background-color: #F48C06;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 4px;
+}
+
+/* Image styling */
+img {
+  border: 3px solid #E85D04;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+/* Hover effect */
+img:hover {
+  transform: scale(1.05); /* Subtle zoom effect */
+}
+
+/*  subtle card effect */
+p, ul, ol {
+  background: white;
+  padding: 10px 15px;
+  border-radius: 6px;
+  border-left: 4px solid #F48C06;
+  box-shadow: 0 0 4px rgba(0,0,0,0.05);
+  margin-bottom: 15px;
+}
